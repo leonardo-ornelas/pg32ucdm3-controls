@@ -1,0 +1,10 @@
+{
+  "uuid": "pg32ucdm3-controls@leonardo-ornelas.github.io",
+  "name": "PG32UCDM3 Controls",
+  "description": "Quick Settings controls for the ASUS ROG Swift OLED PG32UCDM3 over DDC/CI: brightness, GameVisual mode, HDR, HDR preset and Dynamic Brightness Boost. Requires ddcutil.",
+  "shell-version": ["50"],
+  "url": "https://github.com/leonardo-ornelas/pg32ucdm3-controls",
+  "settings-schema": "org.gnome.shell.extensions.pg32ucdm3-controls",
+  "gettext-domain": "pg32ucdm3-controls",
+  "version-name": "0.1.0"
+}

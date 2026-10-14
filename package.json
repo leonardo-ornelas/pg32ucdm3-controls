@@ -1,0 +1,25 @@
+{
+  "name": "pg32ucdm3-controls",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GNOME Shell extension: Quick Settings controls for the ASUS ROG Swift OLED PG32UCDM3",
+  "license": "GPL-2.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "check": "biome check . && tsc --noEmit",
+    "format": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@girs/adw-1": "^4.9.0",
+    "@girs/gjs": "^4.9.0",
+    "@girs/gnome-shell": "^50.0.4",
+    "@girs/gtk-4.0": "^4.9.0",
+    "typescript": "^7.0.2"
+  },
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": ">=22"
+  }
+}

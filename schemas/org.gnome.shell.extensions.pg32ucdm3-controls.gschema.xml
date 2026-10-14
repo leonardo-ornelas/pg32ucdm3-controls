@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pg32ucdm3-controls"
+          path="/org/gnome/shell/extensions/pg32ucdm3-controls/">
+    <key name="brightness-keys" type="b">
+      <default>true</default>
+      <summary>Brightness keys control the PG32UCDM3</summary>
+      <description>When the pointer is on the PG32UCDM3, or there is no built-in screen, the brightness keys adjust the PG32UCDM3. Turn off if another extension also uses the brightness keys.</description>
+    </key>
+    <key name="toggle-hdr" type="as">
+      <default><![CDATA[['<Super><Alt>h']]]></default>
+      <summary>Toggle HDR on the PG32UCDM3</summary>
+    </key>
+  </schema>
+</schemalist>
